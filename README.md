@@ -4,12 +4,12 @@ This project is a personal initiative to create a Python script that queries a c
 
 ## Features
 
-- Query the [Chess.com API](https://www.chess.com/news/view/published-data-api) to fetch recent chess games played by a given user.
-- Retrieve data for the last 10 games played by the user.
-- Calculate win, loss, and draw rates for the user.
-- Identify the most common opening move played by the user.
-- Determine the average game duration (in moves) for the user.
-- Generate a summary report with the analyzed data.
+- Queries the [Chess.com API](https://www.chess.com/news/view/published-data-api) to fetch recent chess games played by a given user.
+- Retrieves data for the last 10 games played by the user.
+- Calculates win, loss, and draw rates for the user.
+- Identifies the most common opening move played by the user.
+- Determines the average game duration (in moves) for the user.
+- Generates a summary report with the analyzed data.
 
 ## Requirements
 
@@ -48,9 +48,6 @@ This project is a personal initiative to create a Python script that queries a c
    - Win, loss, and draw rates
    - Most common opening move
    - Average game duration
-
-## Example
-
 ### Input
 
 Replace the `user` variable in the script with the desired Chess.com username:
