@@ -78,7 +78,7 @@ The main parts of the script are:
 - `calculate_avg_moves(username)`: Calculates average moves for 10 most recent games.
 - `calculate_moves_per_game(game, board, player_color)`: Calculates the number of player's moves for one game.
 - `most_common_opening(username)`: Calculates the most common opening for the player given 10 recent games.
-- `main()`: wrapper function that fetches archives, aggregates statistics, and generates the report. 
+- `fetch_and_parse_archives()`: wrapper function that fetches archives, aggregates statistics, and generates the report. 
 - `generate_report(statistics)`: Generates and prints the summary report.
 
 ## License
